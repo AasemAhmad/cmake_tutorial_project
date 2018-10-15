@@ -1,5 +1,4 @@
 tools
 .settings
 .cproject
-io
 application/src/build_win/
