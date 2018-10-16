@@ -1,4 +1,5 @@
 tools
-.settings
+.classpath
+.settings/
 .cproject
 application/build_win/
