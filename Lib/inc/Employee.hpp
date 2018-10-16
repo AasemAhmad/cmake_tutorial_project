@@ -1,10 +1,11 @@
-#include<string>
+
 #include<iostream>
+
 class Employee {
 private:
-string name;
+int name;
 int id;
 public:
-Emloyee(string , int);
+Employee(int , int);
 void print();
-}
+};

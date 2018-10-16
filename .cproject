@@ -154,6 +154,14 @@
 				<useDefaultCommand>false</useDefaultCommand>
 				<runAllBuilders>false</runAllBuilders>
 			</target>
+			<target name="build_target" path="Lib" targetID="org.eclipse.cdt.build.MakeTargetBuilder">
+				<buildCommand>build.cmd</buildCommand>
+				<buildArguments/>
+				<buildTarget/>
+				<stopOnError>true</stopOnError>
+				<useDefaultCommand>false</useDefaultCommand>
+				<runAllBuilders>false</runAllBuilders>
+			</target>
 		</buildTargets>
 	</storageModule>
 </cproject>

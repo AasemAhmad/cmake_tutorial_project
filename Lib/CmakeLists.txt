@@ -1,0 +1,4 @@
+cmake_minimum_required(VERSION 2.8 FATAL_ERROR)
+include_directories(inc)
+file(GLOB SOURCES "src/*.cpp")
+add_library(Lib_ SHARED ${SOURCES})

@@ -1,5 +1,5 @@
 #include"..\inc\Employee.hpp"
-Employee::Employee(string name, int id) {
+Employee::Employee(int name, int id) {
 	this->name = name;
 	this->id = id;
 	std::cout << "constructor is being called \n";

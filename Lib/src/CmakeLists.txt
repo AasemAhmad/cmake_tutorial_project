@@ -1,3 +1,0 @@
-cmake_minimum_required(VERSION 2.8 FATAL_ERROR)
-add_library(Lib Employee.cpp)
-target_inlcude_directories(Lib PUBLIC ${CMAKE_CURRENT_SOURCE_DIR}\..\inc\)
