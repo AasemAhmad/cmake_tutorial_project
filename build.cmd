@@ -14,7 +14,7 @@ set PATH=%BIN_PATH%;%CMAKE_BIN_PATH%;%GCC_BIN_PATH%;%PATH%
 if not exist %BUILD_PATH% (
     mkdir %BUILD_PATH%
     cd %BUILD_PATH%
-    cmake -G "Unix Makefiles" -D CMAKE_TOOLCHAIN_FILE=..\compiler.cmake ../../
+    cmake -G "Unix Makefiles" -D CMAKE_TOOLCHAIN_FILE=..\compiler.cmake ..\..
 ) ELSE (
     cd %BUILD_PATH%
 )

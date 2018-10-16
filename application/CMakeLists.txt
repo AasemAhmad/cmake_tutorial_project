@@ -1,1 +1,5 @@
-include_directories(inc)
+cmake_minimum_required(VERSION 2.8)
+file(GLOB SOURCES "src/*.cpp")
+add_executable(app ${SOURCES})
+target_include_directories(app PUBLIC ${CMAKE_CURRENT_SOURCE_DIR}/inc)
+target_link_libraries(app LINK_PUBLIC Lib)
