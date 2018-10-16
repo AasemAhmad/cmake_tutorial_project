@@ -143,10 +143,11 @@
 		</scannerConfigBuildInfo>
 	</storageModule>
 	<storageModule moduleId="org.eclipse.cdt.core.LanguageSettingsProviders"/>
+	<storageModule moduleId="refreshScope"/>
 	<storageModule moduleId="org.eclipse.cdt.make.core.buildtargets">
 		<buildTargets>
 			<target name="buildTarget" path="" targetID="org.eclipse.cdt.build.MakeTargetBuilder">
-				<buildCommand>application/src/build.cmd</buildCommand>
+				<buildCommand>build.cmd</buildCommand>
 				<buildArguments/>
 				<buildTarget/>
 				<stopOnError>true</stopOnError>

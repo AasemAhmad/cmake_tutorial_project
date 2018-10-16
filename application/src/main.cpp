@@ -1,6 +1,7 @@
-#include<iostream>
+#include"..\inc\Entity.hpp"
 
 int main() {
-	std::cout << "hello world \n";
-	std::cout << "my name is asem \n";
+	Entity e(1,3);
+	e.print();
+
 }
