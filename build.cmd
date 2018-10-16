@@ -1,9 +1,9 @@
 @echo on
 set OLD_PATH=%PATH%
 
-set SRC_PATH=%~dp0\application\
+set SRC_PATH=%~dp0application\
 set BUILD_PATH=%SRC_PATH%build_win\
-set TOOLS_PATH=%SRC_PATH%..\..\tools\
+set TOOLS_PATH=%SRC_PATH%..\tools\
 set BIN_PATH=%TOOLS_PATH%win_build_tools\bin\
 set CMAKE_BIN_PATH=%TOOLS_PATH%cmake\bin\
 set GCC_BIN_PATH=C:\cygwin64\bin\
